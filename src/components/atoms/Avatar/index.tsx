@@ -87,7 +87,7 @@ const Avatar: React.FC<Props> = ({
 
       {!text && icon && <>{icon}</>}
 
-      {/* `Next.js`에 등록한 이미지인 경우와 아닌 경우로 분리해서 처리하기 */}
+      {/* TODO: `Next.js`에 등록한 이미지인 경우와 아닌 경우로 분리해서 처리하기 */}
       {!text && !icon && imagePath && (
         <img src={imagePath} alt="아바타 이미지" />
       )}

@@ -17,7 +17,7 @@ const Nav: React.FC = () => {
       <Link href="/" className="flex space-x-2 px-12 py-6">
         {/* FIXME: 로고 추가하기 */}
         <AcademicCapIcon className="h-6 w-6 text-white" />
-        <span>세상에 없는 서비스</span>
+        <span>없는 서비스</span>
       </Link>
       {routes.map(({ label, path, Icon }) => (
         <Link

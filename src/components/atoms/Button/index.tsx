@@ -21,8 +21,8 @@ interface Props extends HTMLMotionProps<"button"> {
 /**
  * `framer-motion`과 `tailwindcss`를 사용하는 공용 버튼
  * @example
- * <StoryButton primary>Primary</StoryButton>
- * <StoryButton fill loading>Fill</StoryButton>
+ * <Button primary>Primary</Button>
+ * <Button fill loading>Fill</Button>
  */
 const Button: React.FC<React.PropsWithChildren<Props>> = ({
   children,
